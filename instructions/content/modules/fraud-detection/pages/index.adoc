@@ -1,6 +1,7 @@
-= Red Hat One Test Drive with {productname-long}
+= Fraud Detection {deliverable} with {productname-long}
 :!sectids:
 
+[id='introduction']
 [.text-center.strong]
 == Introduction
 

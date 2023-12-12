@@ -4,14 +4,13 @@ version: master
 nav:
   - modules/ROOT/nav.adoc
 
-
 asciidoc:
   attributes:
-    release-version: master
+    release-version: main
     page-pagination: true
     experimental:
     numbered:
-    lab_name: "Fraud Detection Workshop"
+    lab_name: "OpenShift AI Test Drive"
     guid: my-guid
     ssh_user: lab-user
     ssh_password: lab-user

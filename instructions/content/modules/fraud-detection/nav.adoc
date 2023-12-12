@@ -1,0 +1,15 @@
+* 1. Workbenches
+** xref:creating-a-workbench.adoc[1. Create a Workbench]
+** xref:importing-files-into-jupyter.adoc[2. Jupyter]
+** xref:running-code-in-a-notebook.adoc[3. Notebooks]
+** xref:training-a-data-model.adoc[4. Training a Model]
+
+* 2. Model Serving
+** xref:preparing-a-data-model-for-deployment.adoc[1. Saving the Model]
+** xref:deploying-a-data-model.adoc[2. Deploy the Model]
+** xref:testing-the-model-api.adoc[3. Using the API]
+
+* 3. Data Science Pipelines
+// ** xref:enabling-data-science-pipelines.adoc[1. Enable Pipelines]
+** xref:automating-workflows-with-pipelines.adoc[1. Workbench Pipeline Editor]
+** xref:running-a-pipeline-generated-from-python-code.adoc[2. Python Pipelines]
