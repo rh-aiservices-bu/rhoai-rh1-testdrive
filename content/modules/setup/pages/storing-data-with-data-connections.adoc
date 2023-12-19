@@ -1,7 +1,6 @@
 [id='storing-data-with-data-connections_{context}']
 = Storing data with data connections
 
-include::_attributes.adoc[]
 
 For this {deliverable}, you need two S3-compatible object storage buckets, such as Ceph, Minio, or AWS S3:
 

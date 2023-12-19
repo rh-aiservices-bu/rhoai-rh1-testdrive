@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 #
 
-# run with
-# fswatch -o ./instructions/content | xargs -n1 -I{} ./instructions/utilities/lab-reload
-# fswatch -e ./instructions/www/ -o ./  | xargs -n1 -I{} ./instructions/utilities/lab-reload
+# On Mac run with
+# fswatch -e ./content/www/ -o ./  | xargs -n1 -I{} ./content/utilities/lab-reload
 
 # Check if podman is available
 if command -v podman &> /dev/null; then
@@ -40,19 +39,23 @@ fi
 # printf "%b  %b %s\\n" "${OVER}" "${TICK}" "Container stopped "
 
 printf "  %b Cleaning site %s\\n" "${INFO}"
-rm -rf ./www/*
+rm -rf ./content/www/*
 printf "%b  %b %s\\n" "${OVER}" "${TICK}" "Site Cleaned "
 
 printf "  %b Rebuilding site %s\\n" "${INFO}"
-mkdir -p ./instructions/www
+mkdir -p ./content/www
 
+time \
 ${container_runtime} run --rm --name showroom-builder \
     --platform linux/amd64 \
     -v "${PWD}:/antora" \
     docker.io/antora/antora default-site.yml
 printf "%b  %b %s\\n" "${OVER}" "${TICK}" "Site Rebuilt "
 
-
+printf "  %b Caching site %s\\n" "${INFO}"
+rm -rf ./content/www-cache/
+cp -rp  ./content/www/ \
+        ./content/www-cache/
 
 printf "  %b (Re-)Starting serving container %s\\n" "${INFO}"
 
@@ -67,7 +70,7 @@ else
         --name showroom-httpd \
         --security-opt label=disable \
         -p 8443:80 \
-        -v "${PWD}/instructions/www:/usr/local/apache2/htdocs/" \
+        -v "${PWD}/content/www-cache:/usr/local/apache2/htdocs/" \
         docker.io/httpd:2.4
     printf "%b  %b %s\\n" "${OVER}" "${TICK}" "container started "
 fi

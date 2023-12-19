@@ -1,7 +1,6 @@
 [id='navigating-to-the-dashboard_{context}']
 = Navigating to the {productname-short} dashboard
 
-include::_attributes.adoc[]
 
 .Procedure
 

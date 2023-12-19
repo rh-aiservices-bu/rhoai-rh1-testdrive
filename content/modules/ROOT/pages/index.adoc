@@ -1,4 +1,4 @@
-= Red Hat One Test Drive with {productname-long}
+= Test Drive New Features of {productname-long}
 :!sectids:
 
 [.text-center.strong]
@@ -6,7 +6,9 @@
 
 Welcome!
 
-In this {deliverable}, you'll learn how to incorporate data science and artificial intelligence and machine learning (AI/ML) into an OpenShift development workflow.
+In this {deliverable}, you'll start with the basics of {productname-short}, and end with some of the newest and most advanced features.
+
+We'll start with a straightforward fraud detection model built with Tensorflow to learn the basics.  Then we'll progress to some new features of {productname-short} that allow it to be a great platform for generative AI and large language models.  This will include distributed training and LLM model serving with CaiKit
 
 You'll use an example fraud detection model to complete the following tasks:
 

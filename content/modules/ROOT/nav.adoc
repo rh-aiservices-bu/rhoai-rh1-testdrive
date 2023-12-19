@@ -6,7 +6,7 @@
 ** xref:setup:running-a-script-to-install-storage.adoc[3. Storage Data Connections]
 ** xref:setup:enabling-data-science-pipelines.adoc[4. Enable Pipelines]
 
-* 2. xref:fraud-detection:index.adoc[Predictive AI / ML]
+* xref:fraud-detection:index.adoc[2. Predictive AI / ML]
 ** 1. Workbenches
 *** xref:fraud-detection:creating-a-workbench.adoc[1. Create a Workbench]
 *** xref:fraud-detection:importing-files-into-jupyter.adoc[2. Jupyter]

@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #
 
+
 # Check if podman is available
 if command -v podman &> /dev/null; then
     container_runtime="podman"
@@ -13,5 +14,5 @@ else
 fi
 
 echo "Stopping serve process..."
-${container_runtime} kill showroom-httpd
+${container_runtime}  kill showroom-httpd
 echo "Stopped serve process."
