@@ -15,7 +15,7 @@ To create data connections to your existing S3-compatible storage buckets, you n
 
 If you don't have this information, contact your storage administrator.
 
-.Procedures
+=== Procedures
 
 Create data connections to your two storage buckets.
 
@@ -55,6 +55,6 @@ Check to see that your data connections are listed in the project.
 image::projects/ds-project-dc-list.png[List of project data connections]
 
 
-.Next step
+=== Next Step
 
 xref:fraud-detection:creating-a-workbench.adoc[Creating a workbench]

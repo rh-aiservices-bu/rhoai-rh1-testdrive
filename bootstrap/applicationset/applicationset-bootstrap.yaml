@@ -13,6 +13,12 @@ spec:
         repoURL: https://github.com/rh-aiservices-bu/rhoai-rh1-testdrive.git
         targetRevision: main
         path: bootstrap/ic-test-app
+      - cluster: in-cluster
+        url: https://kubernetes.default.svc
+        name: rhods-config
+        repoURL: https://github.com/rh-aiservices-bu/rhoai-rh1-testdrive.git
+        targetRevision: main
+        path: bootstrap/rhods-config  
   template:
     metadata:
       name: '{{name}}'

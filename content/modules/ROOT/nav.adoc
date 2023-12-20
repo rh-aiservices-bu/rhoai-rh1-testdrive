@@ -11,11 +11,11 @@
 *** xref:fraud-detection:creating-a-workbench.adoc[1. Create a Workbench]
 *** xref:fraud-detection:importing-files-into-jupyter.adoc[2. Jupyter]
 *** xref:fraud-detection:running-code-in-a-notebook.adoc[3. Notebooks]
-*** xref:fraud-detection:training-a-data-model.adoc[4. Training a Model]
+*** xref:fraud-detection:training-a-model.adoc[4. Training a Model]
 
 ** 2. Model Serving
-*** xref:fraud-detection:preparing-a-data-model-for-deployment.adoc[1. Saving the Model]
-*** xref:fraud-detection:deploying-a-data-model.adoc[2. Deploy the Model]
+*** xref:fraud-detection:preparing-a-model-for-deployment.adoc[1. Saving the Model]
+*** xref:fraud-detection:deploying-a-model.adoc[2. Deploy the Model]
 *** xref:fraud-detection:testing-the-model-api.adoc[3. Using the API]
 
 ** 3. Data Science Pipelines

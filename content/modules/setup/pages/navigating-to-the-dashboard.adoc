@@ -2,7 +2,7 @@
 = Navigating to the {productname-short} dashboard
 
 
-.Procedure
+=== Procedure
 
 . After you log in to the OpenShift console, access the {productname-short} dashboard by clicking the application launcher icon on the header.
 +
@@ -24,7 +24,7 @@ image::projects/ds-console-ocp-tile.png[OCP console link]
 
 For now, stay in the {productname-short} dashboard.
 
-.Next step
+=== Next Step
 
 xref:setting-up-your-data-science-project.adoc[Setting up your data science project]
 

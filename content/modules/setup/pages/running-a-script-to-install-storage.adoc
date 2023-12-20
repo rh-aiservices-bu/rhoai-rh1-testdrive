@@ -4,10 +4,6 @@
 
 For convenience, the provided script installs two data connections (and associated secrets) and two Minio buckets as s3-compatible storage The script creates a random user and password for security. This script is based on the instructions for installing Minio in this https://ai-on-openshift.io/tools-and-applications/minio/minio/[guide].
 
-IMPORTANT: The storage buckets that this script creates are *not* meant for production usage.
-
-NOTE: If you want to connect to your own storage, see xref:creating-data-connections-to-storage.adoc[Creating data connections to your own S3-compatible object storage].
-
 .Prerequisite
 
 You must know the OpenShift resource name for your data science project so that you run the provided script in the correct project. To get the project's resource name:
@@ -16,17 +12,7 @@ In the {productname-short} dashboard, select *Data Science Projects* and then ho
 
 image::projects/ds-project-list-resource-hover.png[Project list resource name]
 
-.Procedure
-
-. You can run the script from the command line or from the OpenShift console.
-+
-If you want to run the script from the OpenShift console, skip to the next step.
-+
-If you are knowledgeable in OpenShift and can access the cluster from the command line, run the following command:
-+
-----
-oc apply -n <your-project-name/> -f https://github.com/rh-aiservices-bu/fraud-detection/raw/main/setup/setup-s3.yaml
-----
+=== Procedure
 
 . In the {productname-short} dashboard, click the application launcher icon and then select the *OpenShift Console* option.
 +
@@ -81,7 +67,7 @@ spec:
             - -ec
             - |-
               echo -n 'Setting up Minio instance and data connections'
-              oc apply -f https://github.com/rh-aiservices-bu/fraud-detection/raw/main/setup/setup-s3-no-sa.yaml
+              oc apply -f https://raw.githubusercontent.com/rh-aiservices-bu/test-drive/main/setup/setup-s3-no-sa.yaml
           command:
             - /bin/bash
           image: image-registry.openshift-image-registry.svc:5000/openshift/tools:latest
@@ -103,6 +89,6 @@ You should see a "Resources successfully created" message and the following reso
 * `create s3-storage`
 
 
-.Next step
+=== Next Step
 
 xref:fraud-detection:creating-a-workbench.adoc[Creating a workbench]

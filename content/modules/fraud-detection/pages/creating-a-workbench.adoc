@@ -3,11 +3,11 @@
 
 A workbench is an instance of your development and experimentation environment. Within the workbench you can select a notebook image for your data science work.
 
-.Prerequisite
+=== Prerequisite
 
 * You created a `My Storage` data connection as described in xref:setup:running-a-script-to-install-storage.adoc[Storage Data Connections].
 
-.Procedure
+=== Procedure
 
 . Navigate to the project detail page for the data science project that you created in Section 1.
 
@@ -52,6 +52,6 @@ NOTE: If you made a mistake, you can edit ithe workbench to make changes.
 image::workbenches/ds-project-workbench-list-edit.png[Workbench list edit]
 
 
-.Next step
+=== Next Step
 
 xref:importing-files-into-jupyter.adoc[Importing the {deliverable} files into the Jupyter environment]
