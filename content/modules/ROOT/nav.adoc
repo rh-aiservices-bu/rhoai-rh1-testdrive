@@ -24,6 +24,10 @@
 *** xref:fraud-detection:running-a-pipeline-generated-from-python-code.adoc[2. Python Pipelines]
 
 * xref:llm:index.adoc[3. Generative AI]
-** 1. Workbenches
-** 2. Distributed Training
-** 3. Model Serving
+// ** 1. Serving an LLM
+** xref:llm:caikit-conversion.adoc[1. Caikit Conversion]
+** xref:llm:saving-caikit-model.adoc[2. Saving the Model]
+** xref:llm:deploying-caikit-model.adoc[3. Deploy the Model]
+** xref:llm:testing-the-model-api.adoc[4. Using the API]
+// *** xref:llm:[5. Connecting a UI]
+

@@ -48,7 +48,7 @@ image::projects/ds-project-pipeline-artifacts-form.png[Add pipeline artifacts fo
 . Click *Add data connection*.
 
 
-.Verification
+=== Verification
 
 Check to see that your data connections are listed in the project.
 

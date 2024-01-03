@@ -41,7 +41,7 @@ image::workbenches/create-workbench-form-data-connection.png[Data connection, 60
 +
 image::workbenches/create-workbench-form-button.png[Create workbench button]
 
-.Verification
+=== Verification
 
 In the project details page, the status of the workbench changes from `Starting` to `Running`.
 

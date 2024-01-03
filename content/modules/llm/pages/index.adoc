@@ -1,3 +1,34 @@
 = Generative AI {deliverable} with {productname-long}
 :!sectids:
 
+== Introduction
+
+Now that you've learned the basics of {productname-long} using a Predictive AI model, it's time to explore Generative AI. Generative AI is a subset of artificial intelligence that uses machine learning to generate new data. It's used in a variety of applications, including image generation, text generation, and music generation.
+
+In this {deliverable}, we'll explore using a large language model (LLM) downloaded from Huggingface.  We'll be using This is a small LLM we can use with minimal resources.
+
+You'll use an example fraud detection model to complete the following tasks:
+
+* Explore a pre-trained fraud detection model by using Jupyter Notebooks.
+* Deploy the model by using {productname-short} model serving.
+* Refine and train the model by using automated pipelines.
+
+And you'll do all of this without having to install anything on your own computer, thanks to https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-data-science[{productname-long}].
+
+== About the example fraud detection model
+
+The example fraud detection model mentors credit card transactions for potential fraudulent activity. It analyzes the following credit card transaction details:
+
+* The geographical distance from the previous credit card transaction.
+* The price of the current transaction, compared to the median price of all the user’s transactions.
+* Whether the user completed the transaction by using the hardware chip in the credit card,  entered a PIN number, or for an online purchase.
+
+Based on this data, the model outputs the likelihood of the transaction being fraudulent.
+
+== Before you begin
+
+https://developers.redhat.com/products/red-hat-openshift-data-science/download[Set up your {productname-long} environment]
+
+If you don't already have an instance of {productname-long}, find out more on the https://developers.redhat.com/products/red-hat-openshift-data-science/download[developer page]. There, you can spin up your own account on the *free {productname-short} Sandbox* or learn about installing on *your own OpenShift cluster*.
+
+If you're ready, xref:setup:navigating-to-the-dashboard.adoc[start the {deliverable}!]

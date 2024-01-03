@@ -1,0 +1,12 @@
+[id='training-a-model']
+= Training a model 
+
+Now that you know how the Jupyter notebook environment works, the real work can begin!
+
+In your notebook environment, open the file `1_convert.ipynb`, and follow the instructions directly in the notebook. The instructions will guide you through the process of converting a model from Huggingface to a format for serving.
+
+image::wb-notebook-convert.png[Jupyter Notebook 1]
+
+=== Next Step
+
+xref:saving-caikit-model.adoc[Preparing a data for deployment]

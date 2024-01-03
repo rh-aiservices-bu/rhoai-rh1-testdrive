@@ -80,7 +80,7 @@ spec:
 
 . Click *Create*.
 
-.Verification
+=== Verification
 
 You should see a "Resources successfully created" message and the following resources listed:
 

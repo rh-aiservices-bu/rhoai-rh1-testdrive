@@ -1,0 +1,36 @@
+[id='deploying-a-model']
+= Deploying a data model
+
+Now that the model is accessible in storage, you can use deploy it as an API.
+
+=== Procedure
+
+. In the {productname-short} dashboard, navigate to *Models and model servers*.
+
+. Click *Deploy model*.
++
+image::ds-project-deploy-model.png[Add Server]
+
++
+. In the form:
+
+.. Fill out the *Model Name* with the value `flan-t5-small-caikit`.
+.. Select the *Serving runtime*, `CAikit TGIS ServingRuntime for Kserve`.
+.. Select the *Model framework*, `caikit`.
+.. Set the *Model server replicas* to `1`).
+.. Select the *Compute resources per replica*, `Small`.
+.. Select the *Existing data connection*: `My Storage`
+.. Enter the path to your uploaded model: `models/flan-t5-small-caikit`
+
++
+image::deploy-model-form.png[Deploy model form]
+
+. Click *Deploy*.
+
+. Wait for the model to deploy and for the *Status* to show a green checkmark.
++
+image::ds-project-model-list-status.png[Model status]
+
+=== Next Step
+
+xref:testing-the-model-api.adoc[Testing the model API]

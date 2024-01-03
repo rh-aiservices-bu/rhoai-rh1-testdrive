@@ -25,7 +25,7 @@ image::projects/ds-project-create-pipeline-server-form.png[Selecting the Pipelin
 
 . Click *Configure*.
 
-.Verification
+=== Verification
 
 Check the *Pipelines* page. Pipelines are enabled when the *Pipeline server actions* option appears and the *Create pipeline server* button no longer appears.
 
