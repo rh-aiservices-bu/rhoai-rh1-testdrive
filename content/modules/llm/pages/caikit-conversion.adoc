@@ -1,7 +1,7 @@
 [id='training-a-model']
-= Training a model 
+= Converting a compatible LLM
 
-Now that you know how the Jupyter notebook environment works, the real work can begin!
+Before we can use the Google flan model, we need to convert it for use within Caikit.
 
 In your notebook environment, open the file `1_convert.ipynb`, and follow the instructions directly in the notebook. The instructions will guide you through the process of converting a model from Huggingface to a format for serving.
 

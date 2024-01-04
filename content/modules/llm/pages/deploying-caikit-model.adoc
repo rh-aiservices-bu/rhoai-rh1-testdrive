@@ -15,7 +15,7 @@ image::ds-project-deploy-model.png[Add Server]
 . In the form:
 
 .. Fill out the *Model Name* with the value `flan-t5-small-caikit`.
-.. Select the *Serving runtime*, `CAikit TGIS ServingRuntime for Kserve`.
+.. Select the *Serving runtime*, `Caikit TGIS ServingRuntime for Kserve`.
 .. Select the *Model framework*, `caikit`.
 .. Set the *Model server replicas* to `1`).
 .. Select the *Compute resources per replica*, `Small`.

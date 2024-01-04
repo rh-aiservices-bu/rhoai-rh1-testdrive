@@ -1,7 +1,7 @@
 [id='preparing-a-model-for-deployment']
 = Preparing a model for deployment
 
-After you train a model, you can deploy it by using the {productname-short} model serving capabilities.
+After you converting the Google Flan model, you can deploy it by using the {productname-short} single-model server and the Caikit runtime.
 
 To prepare it for deployment, you must move the model from your workbench to your S3-compatible object storage. You use the data connection that you created in the xref:setup:running-a-script-to-install-storage.adoc[Storage Data Connections] section and upload the model from a notebook. In the previous step, you converted the model to the Caikit format
 

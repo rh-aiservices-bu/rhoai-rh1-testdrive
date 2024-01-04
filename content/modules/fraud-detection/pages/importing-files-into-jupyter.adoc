@@ -41,8 +41,8 @@ image::workbenches/jupyter-git-modal.png[]
 
 === Verification
 
-Double-click the newly-created folder, `test drive`
-
+Double-click the newly-created folder, `test-drive`
+  
 Double-click `fraud-detection`
 
 In the file browser, you should see the notebooks that you cloned from Git.
