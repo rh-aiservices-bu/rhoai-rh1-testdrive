@@ -6,7 +6,3 @@ Before we can use the Google flan model, we need to convert it for use within Ca
 In your notebook environment, open the file `1_convert.ipynb`, and follow the instructions directly in the notebook. The instructions will guide you through the process of converting a model from Huggingface to a format for serving.
 
 image::wb-notebook-convert.png[Jupyter Notebook 1]
-
-=== Next Step
-
-xref:saving-caikit-model.adoc[Preparing a data for deployment]

@@ -1,5 +1,5 @@
 [id='deploying-a-model']
-= Deploying a data model
+= Deploying a model
 
 Now that the model is accessible in storage, you can use deploy it as an API.
 
@@ -9,7 +9,7 @@ Now that the model is accessible in storage, you can use deploy it as an API.
 
 . Click *Deploy model*.
 +
-image::ds-project-deploy-model.png[Add Server]
+image::ds-project-deploy-model.png[Deploy Model]
 
 +
 . In the form:
@@ -23,7 +23,7 @@ image::ds-project-deploy-model.png[Add Server]
 .. Enter the path to your uploaded model: `models/flan-t5-small-caikit`
 
 +
-image::deploy-model-form.png[Deploy model form]
+image::deploy-model-form.png[Deploy model form, 600]
 
 . Click *Deploy*.
 
@@ -31,6 +31,3 @@ image::deploy-model-form.png[Deploy model form]
 +
 image::ds-project-model-list-status.png[Model status]
 
-=== Next Step
-
-xref:testing-the-model-api.adoc[Testing the model API]

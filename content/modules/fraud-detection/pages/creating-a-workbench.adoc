@@ -41,6 +41,8 @@ image::workbenches/create-workbench-form-data-connection.png[Data connection, 60
 +
 image::workbenches/create-workbench-form-button.png[Create workbench button]
 
+
+
 === Verification
 
 In the project details page, the status of the workbench changes from `Starting` to `Running`.
@@ -52,6 +54,4 @@ NOTE: If you made a mistake, you can edit ithe workbench to make changes.
 image::workbenches/ds-project-workbench-list-edit.png[Workbench list edit]
 
 
-=== Next Step
 
-xref:importing-files-into-jupyter.adoc[Importing the {deliverable} files into the Jupyter environment]

@@ -1,4 +1,5 @@
 .ignore/
+bootstrap/applicationset/applicationset-bootstrap-test.yaml
 
 # editor
 .idea/

@@ -15,10 +15,3 @@ image::model-serving/ds-project-model-list-url.png[Model URL]
 . Return to the Jupyter environment and try out your new endpoint. You'll try REST API calls in `3_rest_requests.ipynb`
 
 image::model-serving/wb-notebook-requests.png[Request Notebooks]
-
-=== Next Step
-
-xref:automating-workflows-with-pipelines.adoc[Automating workflows with data science pipelines]
-
-xref:running-a-pipeline-generated-from-python-code.adoc[Running a data science pipeline generated from Python code]
-

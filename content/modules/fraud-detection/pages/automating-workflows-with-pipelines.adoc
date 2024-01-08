@@ -7,6 +7,8 @@ In this section, you create a simple pipeline by using the GUI pipeline editor. 
 
 Note: Your completed pipeline should look like the one in the `4 Train Save.pipeline` file.
 
+NOTE: Feel free to run and use `4 Train Save.pipeline` if you don't want to create your own pipeline.  If you would like to explore the pipeline editor, you can create your own pipeline and follow the steps below.
+
 == Create a pipeline
 
 . Open your workbench's JupyterLab environment. If the launcher is not visible, click *+* to open it.
@@ -183,6 +185,3 @@ image::pipelines/pipeline-run-complete.png[]
 
 The result should be a `models/fraud/1/model.onnx` file in your S3 bucket which you can serve, just like you did manually in the xref:preparing-a-model-for-deployment.adoc[Preparing a model for deployment] section.
 
-=== Next Steps
-
-(optional) xref:running-a-pipeline-generated-from-python-code.adoc[Running a data science pipeline generated from Python code]

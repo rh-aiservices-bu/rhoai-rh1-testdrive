@@ -40,7 +40,3 @@ models/flan-t5-small-caikit/artifacts/tokenizer.json
 models/flan-t5-small-caikit/artifacts/tokenizer_config.json
 models/flan-t5-small-caikit/config.yml
 ----
-
-=== Next Step
-
-xref:deploying-caikit-model.adoc[Deploying a model]

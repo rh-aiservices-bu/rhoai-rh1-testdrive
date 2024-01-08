@@ -15,7 +15,7 @@ The generated `5_get_data_train_upload.yaml` file is located in the `fraud-detec
 
 . Right-click the `5_get_data_train_upload.yaml` file and then click *Download*.
 +
-image::pipelines/wb-download.png[Download Pipeline YAML]
+image::pipelines/wb-download.png[Download Pipeline YAML,400]
 
 . Upload the `5_get_data_train_upload.yaml` file to {productname-short}.
 
@@ -27,7 +27,7 @@ image::pipelines/dsp-pipeline-import.png[]
 
 .. Click *Upload* and then select `5_get_data_train_upload.yaml` from your local files to upload the pipeline.
 +
-image::pipelines/dsp-pipline-import-upload.png[]
+image::pipelines/dsp-pipline-import-upload.png[, 600]
 
 .. Click *Import pipeline* to import and save the pipeline.
 +

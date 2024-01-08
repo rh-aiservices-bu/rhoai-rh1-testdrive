@@ -10,9 +10,18 @@ You created a workbench, as described in xref:creating-a-workbench.adoc[Creating
 
 === Procedure
 
+* Wait for your workbench to be fully started
+
 . Click the *Open* link next to your workbench. If prompted, log in and allow the Notebook to authorize your user.
 +
 image::workbenches/ds-project-workbench-open.png[Open workbench]
+
+* Authenticate with the same credentials as earlier
+* You will be asked to accept these settings:
++
+[.bordershadow]
+image::workbenches/wb-auth-access.png[Authorize Access,600]
+
 +
 Your Jupyter environment window opens.
 +
@@ -41,19 +50,13 @@ image::workbenches/jupyter-git-modal.png[]
 
 === Verification
 
-Double-click the newly-created folder, `test-drive`
+. Navigate to `test-drive/fraud-detection`
+
+.. Double-click the newly-created folder, `test-drive`
   
-Double-click `fraud-detection`
+.. Double-click `fraud-detection`
 
 In the file browser, you should see the notebooks that you cloned from Git.
 
 image::workbenches/jupyter-file-browser-2.png[Jupyter file browser - fraud-detection]
 
-
-=== Next Step
-
-xref:running-code-in-a-notebook.adoc[Running code in a notebook]
-
-or
-
-xref:training-a-model.adoc[Training a model]

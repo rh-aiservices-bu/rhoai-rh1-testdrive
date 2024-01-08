@@ -7,6 +7,3 @@ In your notebook environment, open the file `1_experiment_train.ipynb`, and foll
 
 image::workbenches/jupyter-notebook-1.png[Jupyter Notebook 1]
 
-=== Next Step
-
-xref:preparing-a-model-for-deployment.adoc[Preparing a data for deployment]

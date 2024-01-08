@@ -87,8 +87,3 @@ You should see a "Resources successfully created" message and the following reso
 * `demo-setup`
 * `demo-setup-edit`
 * `create s3-storage`
-
-
-=== Next Step
-
-xref:fraud-detection:creating-a-workbench.adoc[Creating a workbench]

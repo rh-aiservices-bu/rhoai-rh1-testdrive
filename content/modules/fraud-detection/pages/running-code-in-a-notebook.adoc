@@ -42,7 +42,7 @@ xref:importing-files-into-jupyter.adoc[Importing the {deliverable} files into th
 
 === Procedure
 
-. In your Jupyter environment, locate the `0_sandbox.ipynb` file. 
+. In your Jupyter environment, locate the `0_sandbox.ipynb` file in the directory `test-drive/fraud-detection`.
 . Double-click it to launch the notebook. It opens in a new tab in the content section of the environment. 
 +
 image::workbenches/jupyter-notebook-0.png[Notebook 0]
@@ -60,7 +60,3 @@ You can use different kernels, with different languages or versions, to run in y
 .Additonal resource
 
 * If you want to learn more about notebooks, go to https://jupyter.org/[the Jupyter site].
-
-=== Next Step
-
-xref:training-a-model.adoc[Training a model]

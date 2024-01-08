@@ -30,10 +30,3 @@ image::projects/ds-project-create-pipeline-server-form.png[Selecting the Pipelin
 Check the *Pipelines* page. Pipelines are enabled when the *Pipeline server actions* option appears and the *Create pipeline server* button no longer appears.
 
 image::projects/ds-project-create-pipeline-server-complete.png[Create pipeline server complete]
-
-=== Next Step
-
-xref:fraud-detection:running-a-pipeline-generated-from-python-code.adoc[Running a data science pipeline generated from Python code]
-
-
-

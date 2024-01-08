@@ -5,13 +5,8 @@ site:
 
 ui:
   bundle:
-    url: https://github.com/tonykay/demo-gpte-classroom-ui/raw/main/releases/download/v0.0.2/ui-bundle.zip
-    snapshot: true
-  supplemental_files:
-    - path: ./content/supplemental-ui
-    - path: .nojekyll
-    - path: ui.yml
-      contents: "static_files: [ .nojekyll ]"
+    url: ./content/docs-ui/ui-bundle.zip
+  supplemental_files: ./content/supplemental-ui
 
 content:
   sources:
@@ -24,7 +19,14 @@ asciidoc:
     deliverable: workshop
     productname-long: Red Hat OpenShift AI
     productname-short: OpenShift AI
-    context: ''      
+    context: ''
+    user: userX
+    password: openshift
+    openshift_console_url: https://PLACEHOLDER-URL.com/
+    openshift_cluster_ingress_domain: URL.com
+    rhoai_dashboard_url: https://rhods-dashboard-redhat-ods-applications.{openshift_cluster_ingress_domain}/
+    login_command: oc login --insecure-skip-tls-verify=false -u userX -p openshift https://api.MYCLUSTER.com:6443"
+
 
 output:
   dir: ./content/www
