@@ -1,4 +1,6 @@
 = Fraud Detection Workshop with {productname-long}
+include::_attributes.adoc[]
+
 :!sectids:
 
 [.text-center.strong]

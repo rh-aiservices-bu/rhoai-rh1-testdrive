@@ -1,3 +1,4 @@
 [id='testing-the-model-api']
 = Connect a Chatbot UI
+include::_attributes.adoc[]
 

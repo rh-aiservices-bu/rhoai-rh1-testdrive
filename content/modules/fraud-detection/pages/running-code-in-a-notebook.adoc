@@ -1,5 +1,6 @@
 [id='running-code-in-a-notebook']
 = Running code in a notebook
+include::_attributes.adoc[]
 
 NOTE: If you're already at ease with Jupyter, you can xref:training-a-model.adoc[skip to the next section].
 

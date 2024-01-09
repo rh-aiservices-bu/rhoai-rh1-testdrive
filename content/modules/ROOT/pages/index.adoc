@@ -1,4 +1,5 @@
 = Test Drive New Features of {productname-long}
+include::_attributes.adoc[]
 :!sectids:
 
 [.text-center.strong]

@@ -1,4 +1,5 @@
 = Generative AI {deliverable} with {productname-long}
+include::_attributes.adoc[]
 :!sectids:
 
 == Introduction

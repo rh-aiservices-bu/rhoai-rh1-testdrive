@@ -1,5 +1,6 @@
 [id='deploying-a-model']
 = Deploying a model
+include::_attributes.adoc[]
 
 Now that the model is accessible in storage, you can use deploy it as an API.
 

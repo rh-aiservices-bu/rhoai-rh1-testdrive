@@ -1,5 +1,6 @@
 [id='deploying-a-model']
 = Deploying a model
+include::_attributes.adoc[]
 
 Now that the model is accessible in storage and saved in the portable ONNX format, you can use an {productname-short} model server to deploy it as an API.
 

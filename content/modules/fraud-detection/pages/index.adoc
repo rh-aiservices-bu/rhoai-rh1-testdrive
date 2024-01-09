@@ -1,4 +1,5 @@
 = Fraud Detection with {productname-long}
+include::_attributes.adoc[]
 :!sectids:
 
 [id='introduction']

@@ -1,5 +1,6 @@
 [id='testing-the-model-api']
 = Testing the model API
+include::_attributes.adoc[]
 
 Now that you've deployed the model, you can test its API endpoints.
 

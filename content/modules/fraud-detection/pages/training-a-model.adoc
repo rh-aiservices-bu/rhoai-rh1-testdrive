@@ -1,5 +1,6 @@
 [id='training-a-model']
 = Training a model 
+include::_attributes.adoc[]
 
 Now that you know how the Jupyter notebook environment works, the real work can begin!
 

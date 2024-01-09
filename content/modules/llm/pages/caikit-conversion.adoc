@@ -1,5 +1,6 @@
 [id='training-a-model']
 = Converting a compatible LLM
+include::_attributes.adoc[]
 
 Before we can use the Google flan model, we need to convert it for use within Caikit.
 
