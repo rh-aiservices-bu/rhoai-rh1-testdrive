@@ -1,10 +1,6 @@
 [id='enabling-data-science-pipelines_{context}']
 = Enabling data science pipelines
 
-
-NOTE: If you do not intend to complete the pipelines section of the workshop you can skip this step and move on to the next section, xref:fraud-detection:creating-a-workbench.adoc[Create a Workbench]
-
-
 In this section, you prepare your {deliverable} environment so that you can use data science pipelines.
 
 === Procedure
@@ -24,6 +20,8 @@ image::projects/ds-project-create-pipeline-server-form.png[Selecting the Pipelin
 . Leave the database configuration as the default.
 
 . Click *Configure*.
+
+. Wait until the spinner disappears and *No pipelines* is displayed.
 
 === Verification
 

@@ -26,7 +26,9 @@ Red Hat provides several supported notebook images. In the *Notebook image* sect
 +
 image::workbenches/create-workbench-form-image.png[Workbench image, 600]
 
-. Choose a small deployment and no GPUs. This {deliverable} does not require any GPUs.
+. Choose Container size `Lab Custom Small`
+
+. Set Accelerator to `None`.
 +
 image::workbenches/create-workbench-form-size.png[Workbench size,600]
 
@@ -50,7 +52,7 @@ In the project details page, the status of the workbench changes from `Starting`
 
 image::workbenches/ds-project-workbench-list.png[Workbench list]
 
-NOTE: If you made a mistake, you can edit ithe workbench to make changes.
+NOTE: If you made a mistake, you can stop the workbench and edit it to make changes.
 
 image::workbenches/ds-project-workbench-list-edit.png[Workbench list edit]
 

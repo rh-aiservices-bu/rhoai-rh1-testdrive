@@ -19,7 +19,10 @@ If you already have an active project that you'd like to use, select it now and 
 . Click *Create data science project*.
 
 . Enter a display name and description.  Based on the display name, a resource name is automatically generated, but you can change it if you'd like.
-+
+
+IMPORTANT: The project name should not be `userX` like in the screenshot. `X` should your number, so that all attendants will have a unique project name.
+
+
 image::projects/ds-project-new-form.png[New data science project form]
 
 . You can now see its initial state. There are five types of project components:

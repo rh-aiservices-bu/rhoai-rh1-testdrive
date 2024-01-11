@@ -16,7 +16,5 @@ We'll apply a similar workflow from Predictive AI models to complete the followi
 
 == About LLMs
 
-Today, we'll be using Google's https://huggingface.co/google/flan-t5-small[flan-t5-small] because of compatibility, small size, and small requirements (no gpu).
+Today, we'll be using Google's https://huggingface.co/google/flan-t5-small[flan-t5-small] because of compatibility, small size, and small requirements (no gpu).  It is not a good model, but the process is the same for any of the compatible models.
 
-
-If you're ready, xref:llm:caikit-conversion.adoc[let's get started!]

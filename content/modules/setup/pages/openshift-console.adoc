@@ -1,0 +1,28 @@
+= Logging on to OpenShift
+include::_attributes.adoc[]
+
+For the purposes of this training session, we have provisioned a single OpenShift cluster, with {productname-short} deployed on it.
+
+Each person attending this lab will have a unique user account in which to do their work.
+
+== Environment Information
+
+If you are using the customized version of the instructions, the information below will render properly. If not, you will see placeholder values instead.
+
+* Your account id: `{user}`
+* Your password: `{password}`
+
+In a new window or tab, open the following URL and log in:
+
+* OpenShift Console URL: {openshift_console_url}[{openshift_console_url},window=_blank]
+* The result should look like:
++
+
+[.bordershadow]
+image::projects/login1.png[]
+
+* and after that:
++
+image::projects/login2.png[]
+
+

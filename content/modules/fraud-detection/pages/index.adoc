@@ -27,5 +27,3 @@ The example fraud detection model mentors credit card transactions for potential
 * Whether the user completed the transaction by using the hardware chip in the credit card,  entered a PIN number, or for an online purchase.
 
 Based on this data, the model outputs the likelihood of the transaction being fraudulent.
-
-If you're ready, xref:setup:navigating-to-the-dashboard.adoc[start the {deliverable}!]

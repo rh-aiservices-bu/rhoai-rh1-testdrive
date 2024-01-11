@@ -1,33 +1,35 @@
-* xref:index.adoc[Introduction]
+* 1. Introduction
+** xref:index.adoc[1.1 AI/ML]
+** xref:index.adoc[1.2 OpenShift AI]
+** xref:index.adoc[1.3 Test Drive]
 
-* 1. Project Setup
-** xref:setup:navigating-to-the-dashboard.adoc[1. The Dashboard]
-** xref:setup:setting-up-your-data-science-project.adoc[2. Data Science Projects]
-** xref:setup:running-a-script-to-install-storage.adoc[3. Storage Data Connections]
-** xref:setup:enabling-data-science-pipelines.adoc[4. Enable Pipelines]
+* 2. Project Setup
+** xref:setup:openshift-console.adoc[2.1 The OpenShift Console]
+** xref:setup:navigating-to-the-dashboard.adoc[2.1 The Dashboard]
+** xref:setup:setting-up-your-data-science-project.adoc[2.2 Data Science Projects]
+** xref:setup:running-a-script-to-install-storage.adoc[2.3 Storage Data Connections]
+** xref:setup:enabling-data-science-pipelines.adoc[2.4 Enable Pipelines]
 
-* xref:fraud-detection:index.adoc[2. Predictive AI / ML]
-** 1. Workbenches
-*** xref:fraud-detection:creating-a-workbench.adoc[1. Create a Workbench]
-*** xref:fraud-detection:importing-files-into-jupyter.adoc[2. Jupyter]
-*** xref:fraud-detection:running-code-in-a-notebook.adoc[3. Notebooks]
-*** xref:fraud-detection:training-a-model.adoc[4. Training a Model]
+* xref:fraud-detection:index.adoc[3. Predictive AI / ML]
+** 3.1 Workbenches
+*** xref:fraud-detection:creating-a-workbench.adoc[3.1.1 Create a Workbench]
+*** xref:fraud-detection:importing-files-into-jupyter.adoc[3.1.2 Jupyter]
+*** xref:fraud-detection:running-code-in-a-notebook.adoc[3.1.3 Notebooks]
+*** xref:fraud-detection:training-a-model.adoc[3.1.4 Training a Model]
 
-** 2. Model Serving
-*** xref:fraud-detection:preparing-a-model-for-deployment.adoc[1. Saving the Model]
-*** xref:fraud-detection:deploying-a-model.adoc[2. Deploy the Model]
-*** xref:fraud-detection:testing-the-model-api.adoc[3. Using the API]
+** 3.2 Model Serving
+*** xref:fraud-detection:preparing-a-model-for-deployment.adoc[3.2.1 Saving the Model]
+*** xref:fraud-detection:deploying-a-model.adoc[3.2.2 Deploy the Model]
+*** xref:fraud-detection:testing-the-model-api.adoc[3.2.3 Using the API]
 
-** 3. Data Science Pipelines
-// ** xref:enabling-data-science-pipelines.adoc[1. Enable Pipelines]
-*** xref:fraud-detection:automating-workflows-with-pipelines.adoc[1. Workbench Pipeline Editor]
-*** xref:fraud-detection:running-a-pipeline-generated-from-python-code.adoc[2. Python Pipelines]
+** 3.3 Data Science Pipelines
+*** xref:fraud-detection:automating-workflows-with-pipelines.adoc[3.3.1 Workbench Pipeline Editor]
+*** xref:fraud-detection:running-a-pipeline-generated-from-python-code.adoc[3.3.2 Python Pipelines]
 
-* xref:llm:index.adoc[3. Generative AI]
+* xref:llm:index.adoc[4. Generative AI]
 // ** 1. Serving an LLM
-** xref:llm:caikit-conversion.adoc[1. Caikit Conversion]
-** xref:llm:saving-caikit-model.adoc[2. Saving the Model]
-** xref:llm:deploying-caikit-model.adoc[3. Deploy the Model]
-** xref:llm:testing-the-model-api.adoc[4. Using the API]
+** xref:llm:download-save-llm.adoc[4.1 Download the Model]
+** xref:llm:deploying-llm.adoc[4.2 Deploy the Model]
+** xref:llm:testing-the-model-api.adoc[4.3 Using the API]
 // *** xref:llm:[5. Connecting a UI]
 

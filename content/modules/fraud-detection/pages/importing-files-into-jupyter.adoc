@@ -18,9 +18,11 @@ You created a workbench, as described in xref:creating-a-workbench.adoc[Creating
 image::workbenches/ds-project-workbench-open.png[Open workbench]
 
 * Authenticate with the same credentials as earlier
+
+image::workbenches/login.png[Login]
+
 * You will be asked to accept these settings:
-+
-[.bordershadow]
+
 image::workbenches/wb-auth-access.png[Authorize Access,600]
 
 +

@@ -8,7 +8,7 @@ In this section, you create a simple pipeline by using the GUI pipeline editor. 
 
 Note: Your completed pipeline should look like the one in the `4 Train Save.pipeline` file.
 
-NOTE: Feel free to run and use `4 Train Save.pipeline` if you don't want to create your own pipeline.  If you would like to explore the pipeline editor, you can create your own pipeline and follow the steps below.
+NOTE: Feel free to run and use `4 Train Save.pipeline`.  If you would like to explore the pipeline editor, you can create your own pipeline and follow the steps below.
 
 == Create a pipeline
 
@@ -70,7 +70,6 @@ image::pipelines/wb-pipeline-node-1-file-dep.png[Add File Dependency, 400]
 
 . Set the value to `data/card_transdata.csv` which contains the data to train your model.
 
-. Select the *Include Subdirectories* option and then click *Add*.
 +
 image::pipelines/wb-pipeline-node-1-file-dep-form.png[Set File Dependency Value, 300]
 
@@ -84,7 +83,7 @@ In node 1, the notebook creates the `models/fraud/1/model.onnx` file. In node 2,
 
 . Scroll down to the *Output Files* section, and then click *Add*.
 
-. Set the value to `models/fraud/1/model.onnx` and then click *Add*.
+. Set the value to `models/fraud/1/model.onnx`.
 +
 image::pipelines/wb-pipeline-node-1-file-output-form.png[Set file dependency value, 400]
  
@@ -144,7 +143,7 @@ image::pipelines/wb-pipeline-kube-secret-form.png[Secret Form, 400]
 
 * *Environment Variable*: `AWS_SECRET_ACCESS_KEY`
 ** *Secret Name*: `aws-connection-my-storage`
-** *Secret Key*: `AWS_SECRET_ACCESS_KEY``
+** *Secret Key*: `AWS_SECRET_ACCESS_KEY`
 
 * *Environment Variable*: `AWS_S3_ENDPOINT`
 ** *Secret Name*: `aws-connection-my-storage`
@@ -172,8 +171,7 @@ image::pipelines/wb-pipeline-run-button.png[Pipeline Run Button]
 . Verify the *Runtime Configuration:* is set to `Data Science Pipeline`.  
 . Click *OK*.
 +
-NOTE: If `Data Science Pipeline` is not available as a runtime configuration, you may have created your notebook before the pipeline server was available.  You can restart your notebook after the pipeline server has been created in your data science project.
-+
+NOTE: If `Data Science Pipeline` is not available as a runtime configuration, you may have created your notebook before the pipeline server was available.  You can stop and edit the description on your notebook then restart it.  If this is done after the pipeline server has been created, you will see the `Data Science Pipeline` option.
 image::pipelines/wb-pipeline-run.png[Pipeline Run]
 
 . Return to your data science project and expand the newly created pipeline.

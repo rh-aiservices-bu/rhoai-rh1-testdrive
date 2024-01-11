@@ -22,13 +22,12 @@ objects:
           name: pytorch
       containers:
         - name: kserve-container
-          image: 'quay.io/opendatahub/text-generation-inference:stable'
-          command:
-            - text-generation-launcher
+          image: quay.io/opendatahub/text-generation-inference:stable
+          command: ["text-generation-launcher"]
           args:
-            - '--model-name=/mnt/models/'
-            - '--port=8888'
-            - '--grpc-port=8033'
+            - "--model-name=/mnt/models/"
+            - "--port=3000"
+            - "--grpc-port=8033"
           env:
             - name: TRANSFORMERS_CACHE
               value: /tmp/transformers_cache
@@ -36,5 +35,3 @@ objects:
             - containerPort: 8033
               name: h2c
               protocol: TCP
-            - containerPort: 8888
-              protocol: TCP              

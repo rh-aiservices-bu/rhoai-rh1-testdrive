@@ -34,7 +34,13 @@ image::pipelines/dsp-pipline-import-upload.png[, 600]
 +
 The pipeline shows in the list of pipelines.
 
-. Expand the pipeline item and then click *Create run*.
+. Expand the pipeline item
+
+image::pipelines/dsp-pipeline-expand.png[Expand Pipeline]
+
+. Click *Create run*.
+
+image::pipelines/dsp-pipeline-create-run.png[Create Pipeline Run]
 
 . On the *Create run* page, enter a *Name*. You can leave the other fields with their default values.
 +

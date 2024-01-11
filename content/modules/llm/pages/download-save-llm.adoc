@@ -1,0 +1,53 @@
+[id='preparing-a-model-for-deployment']
+= Downloading an Open Source LLM
+include::_attributes.adoc[]
+
+First we need to download the Google Flan model from Huggingface and then store it in our S3 bucket for the model server to access.
+
+We will use a workbench and the data connection that you created in the xref:setup:running-a-script-to-install-storage.adoc[Storage Data Connections] section..
+
+=== Prerequisites
+
+* You created the data connection `My Storage`.
++
+image::create-workbench-form-data-connection.png[Workbench data connection form, 600]
+
+* You added the `My Storage` data connection to your workbench.
++
+image::ds-project-workbench-list-edit.png[Workbench edit form]
+
+
+=== Procedure
+
+First, let's navigate to the relevant notebooks.
+
+. Navigate to `test-drive/llm`
+
+.. Click the `test-drive` breadcrumb
+
+.. Double-click `llm`
+
+In your notebook environment, open the file `1_download_save.ipynb`, and follow the instructions directly in the notebook. The instructions will guide you through the process of converting a model from Huggingface to a format for serving.
+
+image::wb-notebook-download-save.png[Jupyter Notebook 1]
+
+=== Verification
+
+When you have completed the notebook instructions, you should see files listed in the directory/prefix: `models/flan-t5-small`
+
+[.lines_space]
+[.console-input]
+[source,text]
+----
+models/flan-t5-small/README.md
+models/flan-t5-small/config.json
+models/flan-t5-small/flax_model.msgpack
+models/flan-t5-small/generation_config.json
+models/flan-t5-small/model.safetensors
+models/flan-t5-small/pytorch_model.bin
+models/flan-t5-small/special_tokens_map.json
+models/flan-t5-small/spiece.model
+models/flan-t5-small/tf_model.h5
+models/flan-t5-small/tokenizer.json
+models/flan-t5-small/tokenizer_config.json
+----
