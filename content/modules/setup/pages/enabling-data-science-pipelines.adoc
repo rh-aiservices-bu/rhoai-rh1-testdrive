@@ -1,7 +1,7 @@
 [id='enabling-data-science-pipelines_{context}']
 = Enabling data science pipelines
 
-In this section, you prepare your {deliverable} environment so that you can use data science pipelines.
+In this section, you’ll prepare your {deliverable} environment so that you can use data science pipelines.
 
 == Procedure
 
