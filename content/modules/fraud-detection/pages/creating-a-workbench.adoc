@@ -28,7 +28,6 @@ image::workbenches/create-workbench-form-image.png[Workbench image, 600]
 
 . Choose Container size `Lab Custom Small`
 
-. Set Accelerator to `None`.
 +
 image::workbenches/create-workbench-form-size.png[Workbench size,600]
 
