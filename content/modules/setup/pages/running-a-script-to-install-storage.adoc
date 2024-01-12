@@ -26,7 +26,7 @@ image::projects/ocp-console-add-icon.png[Add resources Icon]
 +
 image::projects/ocp-console-select-project.png[Select a project]
 
-. Verify that you selected the correct project.
+. Verify that you selected the correct project. (In the next step you will import the YAML)
 +
 image::projects/ocp-console-project-selected.png[Selected project]
 
