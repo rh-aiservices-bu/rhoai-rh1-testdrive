@@ -2,45 +2,45 @@
 = Importing the {deliverable} files into the Jupyter environment
 include::_attributes.adoc[]
 
-The Jupyter environment is a web-based environment, but everything you do inside it happens on *{productname-long}* and powered by the *OpenShift* cluster. This means that, without having to install and maintain anything on your own computer, and without disposing of lots of local resources like CPU, GPU and RAM, you can conduct your Data Science work in this powerful and stable managed environment.
+The Jupyter environment is a web-based environment, and everything you do inside it happens on *{productname-long}* and powered by the *OpenShift* cluster. +
+This means that, without having to install and maintain anything on your own computer, and without requiring any local resources like CPU, GPU and RAM, you can perform your Data Science work in this powerful and stable environment.
 
 == Prerequisite
 
 You created a workbench, as described in xref:creating-a-workbench.adoc[Creating a workbench and selecting a Notebook image].
 
-
 == Procedure
 
 * Wait for your workbench to be fully started
 
-. Click the *Open* link next to your workbench. If prompted, log in and allow the Notebook to authorize your user.
+* Click the *Open* link next to your workbench. If prompted, log in and allow the Notebook to authorize your user.
 +
 [.bordershadow]
 image::workbenches/ds-project-workbench-open.png[Open workbench]
 
 * Authenticate with the same credentials as earlier
-
++
 [.bordershadow]
 image::workbenches/login.png[Login]
 
 * You will be asked to accept these settings:
-
++
 [.bordershadow]
 image::workbenches/wb-auth-access.png[Authorize Access,600]
 
 +
-Your Jupyter environment window opens.
+* Your Jupyter environment window opens.
 +
-This file-browser window shows the files and folders that are saved inside your own personal space in {productname-short}.
+* This file-browser window shows the files and folders that are saved inside your own personal space in {productname-short}.
 
-. Bring the content of this {deliverable} inside your Jupyter environment:
+* Bring the content of this {deliverable} inside your Jupyter environment:
 
-.. On the toolbar, click the *Git Clone* icon:
+* On the toolbar, click the *Git Clone* icon:
 +
 [.bordershadow]
 image::workbenches/jupyter-git-icon.png[Git Clone icon, 200]
 
-.. Enter the following {deliverable} Git *https* URL:
+* Enter the following {deliverable} Git *https* URL:
 +
 [.lines_space]
 [.console-input]
@@ -48,7 +48,7 @@ image::workbenches/jupyter-git-icon.png[Git Clone icon, 200]
 ----
 https://github.com/rh-aiservices-bu/test-drive.git
 ----
-
++
 [.bordershadow]
 image::workbenches/jupyter-git-modal.png[]
 
@@ -59,13 +59,11 @@ image::workbenches/jupyter-git-modal.png[]
 == Verification
 
 . Navigate to `test-drive/fraud-detection`
-
-.. Double-click the newly-created folder, `test-drive`
-
-.. Double-click `fraud-detection`
-
-In the file browser, you should see the notebooks that you cloned from Git.
-
++
+// .. Double-click the newly-created folder, `test-drive`
+// .. Double-click `fraud-detection`
+. In the file browser, you should see the notebooks that you cloned from Git.
++
 [.bordershadow]
 image::workbenches/jupyter-file-browser-2.png[Jupyter file browser - fraud-detection]
 
