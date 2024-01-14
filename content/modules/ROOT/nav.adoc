@@ -5,10 +5,10 @@
 
 * 2. Project Setup
 ** xref:setup:openshift-console.adoc[2.1 The OpenShift Console]
-** xref:setup:navigating-to-the-dashboard.adoc[2.1 The Dashboard]
-** xref:setup:setting-up-your-data-science-project.adoc[2.2 Data Science Projects]
-** xref:setup:running-a-script-to-install-storage.adoc[2.3 Storage Data Connections]
-** xref:setup:enabling-data-science-pipelines.adoc[2.4 Enable Pipelines]
+** xref:setup:navigating-to-the-dashboard.adoc[2.2 The Dashboard]
+** xref:setup:setting-up-your-data-science-project.adoc[2.3 Data Science Projects]
+** xref:setup:running-a-script-to-install-storage.adoc[2.4 Storage Data Connections]
+** xref:setup:enabling-data-science-pipelines.adoc[2.5 Enable Pipelines]
 
 * xref:fraud-detection:index.adoc[3. Predictive AI / ML]
 ** 3.1 Workbenches
