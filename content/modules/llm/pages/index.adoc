@@ -6,9 +6,9 @@ include::_attributes.adoc[]
 
 Now that you've learned the basics of {productname-long} using a Predictive AI model, it's time to explore Generative AI. Generative AI is a subset of artificial intelligence that uses machine learning to generate new data. It's used in a variety of applications, including image generation, text generation, and music generation.
 
-In this {deliverable}, we'll explore using a large language model (LLM) downloaded from Huggingface.  We'll be using This is a small LLM we can use with minimal resources.
+In this {deliverable}, we will explore using a large language model (LLM) downloaded from Huggingface.  We will be using This is a small LLM we can use with minimal resources.
 
-We'll apply a similar workflow from Predictive AI models to complete the following tasks:
+We will apply a similar workflow from Predictive AI models to complete the following tasks:
 
 * Convert a model from Huggingface to a format that Caikit serving can use.
 * Deploy the model by using single-model serving with the Caikit runtime
@@ -16,5 +16,5 @@ We'll apply a similar workflow from Predictive AI models to complete the followi
 
 == About LLMs
 
-Today, we'll be using Google's https://huggingface.co/google/flan-t5-small[flan-t5-small] because of compatibility, small size, and small requirements (no gpu).  It is not a good model, but the process is the same for any of the compatible models.
+Today, we will be using Google's https://huggingface.co/google/flan-t5-small[flan-t5-small] because of compatibility, small size, and small requirements (no gpu).  It is not a good model, but the process is the same for any of the compatible models.
 
