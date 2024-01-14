@@ -4,11 +4,11 @@ include::_attributes.adoc[]
 
 A workbench is an instance of your development and experimentation environment. Within the workbench you can select a notebook image for your data science work.
 
-=== Prerequisite
+== Prerequisite
 
 * You created a `My Storage` data connection as described in xref:setup:running-a-script-to-install-storage.adoc[Storage Data Connections].
 
-=== Procedure
+== Procedure
 
 . Navigate to the project detail page for the data science project that you created in Section 1.
 
@@ -46,7 +46,7 @@ image::workbenches/create-workbench-form-button.png[Create workbench button]
 
 
 
-=== Verification
+== Verification
 
 In the project details page, the status of the workbench changes from `Starting` to `Running`.
 

@@ -3,7 +3,7 @@
 
 In this section, you prepare your {deliverable} environment so that you can use data science pipelines.
 
-=== Procedure
+== Procedure
 
 . In the Data Science dashboard, navigate to *Data Science Pipelines* -> *Pipelines*.
 
@@ -23,7 +23,7 @@ image::projects/ds-project-create-pipeline-server-form.png[Selecting the Pipelin
 
 . Wait until the spinner disappears and *No pipelines* is displayed.
 
-=== Verification
+== Verification
 
 Check the *Pipelines* page. Pipelines are enabled when the *Pipeline server actions* option appears and the *Create pipeline server* button no longer appears.
 

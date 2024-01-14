@@ -4,7 +4,7 @@ include::_attributes.adoc[]
 
 Now that you've deployed the model, you can test its API endpoints.
 
-=== Procedure
+== Procedure
 
 . In the Data Science dashboard, navigate to the project details page and scroll down to the *Models and model servers* section.
 

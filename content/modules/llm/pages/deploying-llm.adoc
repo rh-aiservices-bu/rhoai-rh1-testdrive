@@ -4,7 +4,7 @@ include::_attributes.adoc[]
 
 Now that the model is accessible in storage, you can use deploy it as an API.
 
-=== Procedure
+== Procedure
 
 . In the {productname-short} dashboard, navigate to *Models and model servers*.
 

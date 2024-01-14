@@ -6,7 +6,7 @@ First we need to download the Google Flan model from Huggingface and then store 
 
 We will use a workbench and the data connection that you created in the xref:setup:running-a-script-to-install-storage.adoc[Storage Data Connections] section..
 
-=== Prerequisites
+== Prerequisites
 
 * You created the data connection `My Storage`.
 +
@@ -17,7 +17,7 @@ image::create-workbench-form-data-connection.png[Workbench data connection form,
 image::ds-project-workbench-list-edit.png[Workbench edit form]
 
 
-=== Procedure
+== Procedure
 
 First, let's navigate to the relevant notebooks.
 
@@ -31,7 +31,7 @@ In your notebook environment, open the file `1_download_save.ipynb`, and follow 
 
 image::wb-notebook-download-save.png[Jupyter Notebook 1]
 
-=== Verification
+== Verification
 
 When you have completed the notebook instructions, you should see files listed in the directory/prefix: `models/flan-t5-small`
 

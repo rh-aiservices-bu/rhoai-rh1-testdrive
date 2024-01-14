@@ -6,7 +6,7 @@ Now that the model is accessible in storage and saved in the portable ONNX forma
 
 {productname-short} multi-model servers can host several models at once. You create a new model server and deploy your model to it.
 
-=== Procedure
+== Procedure
 
 . In the {productname-short} dashboard, navigate to *Models and model servers*.
 
@@ -24,7 +24,7 @@ image::model-serving/ds-project-model-list-add.png[Add Server]
 .. Select the *Model Server size*, `Lab Custom Small`.
 .. Select the *Accelerator*, `None`.
 .. Select the *Existing data connection*: `My Storage`
-.. Enter the path to your uploaded model: `models/fraud`.  
+.. Enter the path to your uploaded model: `models/fraud`.
 
 
 NOTE: The path does not include `1/model.onnx`.  The OpenVINO model server expects the format to include the integer version as part of the subpath.

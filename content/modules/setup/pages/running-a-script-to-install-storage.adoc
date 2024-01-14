@@ -4,7 +4,7 @@
 
 For convenience, the provided script installs two data connections (and associated secrets) and two Minio buckets as s3-compatible storage The script creates a random user and password for security. This script is based on the instructions for installing Minio in this https://ai-on-openshift.io/tools-and-applications/minio/minio/[guide].  In addition it will install some necessary network policies for service mesh functionality.
 
-=== Prerequisite
+== Prerequisite
 
 You must know the OpenShift resource name for your data science project so that you run the provided script in the correct project. To get the project's resource name:
 
@@ -12,7 +12,7 @@ In the {productname-short} dashboard, select *Data Science Projects* and then ho
 
 image::projects/ds-project-list-resource-hover.png[Project list resource name]
 
-=== Procedure
+== Procedure
 
 . In the {productname-short} dashboard, click the application launcher icon and then select the *OpenShift Console* option.
 +
@@ -80,7 +80,7 @@ spec:
 
 . Click *Create*.
 
-=== Verification
+== Verification
 
 You should see a "Resources successfully created" message and the following resources listed:
 

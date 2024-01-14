@@ -4,12 +4,12 @@ include::_attributes.adoc[]
 
 The Jupyter environment is a web-based environment, but everything you do inside it happens on *{productname-long}* and powered by the *OpenShift* cluster. This means that, without having to install and maintain anything on your own computer, and without disposing of lots of local resources like CPU, GPU and RAM, you can conduct your Data Science work in this powerful and stable managed environment.
 
-=== Prerequisite
+== Prerequisite
 
 You created a workbench, as described in xref:creating-a-workbench.adoc[Creating a workbench and selecting a Notebook image].
 
 
-=== Procedure
+== Procedure
 
 * Wait for your workbench to be fully started
 
@@ -51,12 +51,12 @@ image::workbenches/jupyter-git-modal.png[]
 
 .. Click *CLONE*.
 
-=== Verification
+== Verification
 
 . Navigate to `test-drive/fraud-detection`
 
 .. Double-click the newly-created folder, `test-drive`
-  
+
 .. Double-click `fraud-detection`
 
 In the file browser, you should see the notebooks that you cloned from Git.

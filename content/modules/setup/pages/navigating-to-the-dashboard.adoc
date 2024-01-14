@@ -2,7 +2,7 @@
 = Navigating to the {productname-short} dashboard
 
 
-=== Procedure
+== Procedure
 
 You can access the OpenShift AI URL, and log in with the same credentials as OpenShift:
 
