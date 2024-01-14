@@ -1,17 +1,31 @@
 [id='running-a-script-to-install-storage_{context}']
 = Running a script to install local object storage buckets and create data connections
 
+For convenience, we are providing a script that will:
 
-For convenience, the provided script installs two data connections (and associated secrets) and two Minio buckets as s3-compatible storage The script creates a random user and password for security. This script is based on the instructions for installing Minio in this https://ai-on-openshift.io/tools-and-applications/minio/minio/[guide].  In addition it will install some necessary network policies for service mesh functionality.
+* create a minio instance in your project
+* create 2 buckets in that minio instance
+* generate a random user id and password for your minio instance
+* create 2 Data Connections in your data science project
+** one for each bucket
+** both using the same credentials
+
+This script is based on a quick tutorial for installing Minio (available https://ai-on-openshift.io/tools-and-applications/minio/minio/[here,window=_blank]).  +
+In addition it will install some necessary network policies for service mesh functionality.
 
 == Prerequisite
 
-You must know the OpenShift resource name for your data science project so that you run the provided script in the correct project. To get the project's resource name:
+You must know the OpenShift resource name for your data science project so that you run the provided script in the correct project. +
+To get the project's resource name:
 
-In the {productname-short} dashboard, select *Data Science Projects* and then hover your cursor over the *?* icon next to the project name. A text box appears with information about the project, including it's resource name:
-
+* In the {productname-short} dashboard,
+* select *Data Science Projects*
+* click the *?* icon next to the project name
+* A text box appears with information about the project, including its resource name:
++
 [.bordershadow]
 image::projects/ds-project-list-resource-hover.png[Project list resource name]
+* Make sure to note that resource name
 
 == Procedure
 

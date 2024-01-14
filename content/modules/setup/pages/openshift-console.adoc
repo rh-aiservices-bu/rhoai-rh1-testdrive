@@ -21,7 +21,14 @@ In a new window or tab, open the following URL and log in:
 [.bordershadow]
 image::projects/login1.png[]
 
-* and after that:
+* Because the password is so simple (`{password}`), Chrome might display a scary message such as:
+
++
+[.bordershadow]
+image::projects/login-scary.png[]
+* It is safe here to ignore this message when it pops up.
+
+* after that:
 +
 [.bordershadow]
 image::projects/login2.png[]
