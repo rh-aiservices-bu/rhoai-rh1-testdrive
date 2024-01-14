@@ -10,24 +10,29 @@ You must know the OpenShift resource name for your data science project so that 
 
 In the {productname-short} dashboard, select *Data Science Projects* and then hover your cursor over the *?* icon next to the project name. A text box appears with information about the project, including it's resource name:
 
+[.bordershadow]
 image::projects/ds-project-list-resource-hover.png[Project list resource name]
 
 == Procedure
 
 . In the {productname-short} dashboard, click the application launcher icon and then select the *OpenShift Console* option.
 +
+[.bordershadow]
 image::projects/ds-project-ocp-link.png[OpenShift Console Link]
 
 . In the OpenShift console, click *+* in the top navigation bar.
 +
+[.bordershadow]
 image::projects/ocp-console-add-icon.png[Add resources Icon]
 
 . Select your project from the list of projects.
 +
+[.bordershadow]
 image::projects/ocp-console-select-project.png[Select a project]
 
 . Verify that you selected the correct project.
 +
+[.bordershadow]
 image::projects/ocp-console-project-selected.png[Selected project]
 
 . Copy the following code and paste it into the *Import YAML* editor.

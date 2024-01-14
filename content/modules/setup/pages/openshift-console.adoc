@@ -23,6 +23,7 @@ image::projects/login1.png[]
 
 * and after that:
 +
+[.bordershadow]
 image::projects/login2.png[]
 
 

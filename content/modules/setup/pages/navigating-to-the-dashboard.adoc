@@ -4,7 +4,7 @@
 
 == Procedure
 
-You can access the OpenShift AI URL, and log in with the same credentials as OpenShift:
+You can access the OpenShift AI Dashboard URL, and log in with the same credentials as the OpenShift Console:
 
 * The RHOAI URL: https://rhods-dashboard-redhat-ods-applications.{openshift_cluster_ingress_domain}/[https://rhods-dashboard-redhat-ods-applications.{openshift_cluster_ingress_domain}/,window=_blank]
 
@@ -13,21 +13,25 @@ Alternatively, you can access {productname-long} from the OpenShift Console
 
 . From the OpenShift console, access the {productname-short} dashboard by clicking the application launcher icon on the header.
 +
+[.bordershadow]
 image::projects/ocp-console-ds-tile.png[Data Science dashboard link]
 +
 
 . When prompted, log in to the {productname-short} dashboard by using your OpenShift credentials. {productname-short} uses the same credentials as OpenShift for the dashboard, notebooks, and all other components.
 +
+[.bordershadow]
 image::projects/login-with-openshift.png[OpenShift login, 300]
 +
 The {productname-short} dashboard shows the status of any installed and enabled applications.
 
 . Optionally, click *Explore* to view other available application integrations.
 +
+[.bordershadow]
 image::projects/dashboard-explore.png[Dashboard enabled]
 +
 Note: You can navigate back to the OpenShift console in a similar fashion. Click on the application launcher to access the OpenShift console.
 +
+[.bordershadow]
 image::projects/ds-console-ocp-tile.png[OCP console link]
 
 For now, stay in the {productname-short} dashboard.

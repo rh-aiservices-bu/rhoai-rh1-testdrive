@@ -11,8 +11,10 @@ Now that you've deployed the model, you can test its API endpoints.
 . Take note of the model's *Inference endpoint*.  You need this information when you test the model API.
 
 +
+[.bordershadow]
 image::model-serving/ds-project-model-list-url.png[Model URL]
 
 . Return to the Jupyter environment and try out your new endpoint. you will try REST API calls in `3_rest_requests.ipynb`
 
+[.bordershadow]
 image::model-serving/wb-notebook-requests.png[Request Notebooks]

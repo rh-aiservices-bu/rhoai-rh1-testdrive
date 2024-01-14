@@ -10,10 +10,12 @@ To prepare it for deployment, you must move the model from your workbench to you
 
 * You created the data connection `My Storage`.
 +
+[.bordershadow]
 image::model-serving/create-workbench-form-data-connection.png[Workbench data connection form, 600]
 
 * You added the `My Storage` data connection to your workbench.
 +
+[.bordershadow]
 image::model-serving/ds-project-workbench-list-edit.png[Workbench edit form]
 
 
@@ -23,6 +25,7 @@ image::model-serving/ds-project-workbench-list-edit.png[Workbench edit form]
 
 . Follow the instructions in the notebook to make the model accessible in storage and save it in the portable ONNX format.
 
+[.bordershadow]
 image::model-serving/jupyter-notebook-2.png[Jupyter Notebook 2]
 
 == Verification

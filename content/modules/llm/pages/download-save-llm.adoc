@@ -10,10 +10,12 @@ We will use a workbench and the data connection that you created in the xref:set
 
 * You created the data connection `My Storage`.
 +
+[.bordershadow]
 image::create-workbench-form-data-connection.png[Workbench data connection form, 600]
 
 * You added the `My Storage` data connection to your workbench.
 +
+[.bordershadow]
 image::ds-project-workbench-list-edit.png[Workbench edit form]
 
 
@@ -29,6 +31,7 @@ First, let's navigate to the relevant notebooks.
 
 In your notebook environment, open the file `1_download_save.ipynb`, and follow the instructions directly in the notebook. The instructions will guide you through the process of converting a model from Huggingface to a format for serving.
 
+[.bordershadow]
 image::wb-notebook-download-save.png[Jupyter Notebook 1]
 
 == Verification
