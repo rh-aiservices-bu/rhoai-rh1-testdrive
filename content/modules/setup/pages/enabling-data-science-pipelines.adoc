@@ -5,9 +5,10 @@ In this section, you prepare your {deliverable} environment so that you can use 
 
 == Procedure
 
-. In the Data Science dashboard, navigate to *Data Science Pipelines* -> *Pipelines*.
+. Go back to the OpenShift AI dashboard
+. Navigate to *Data Science Pipelines* -> *Pipelines*.
 
-. Click *Create pipeline server*.
+. Click *Create a pipeline server*.
 +
 [.bordershadow]
 image::projects/ds-project-create-pipeline-server.png[Create pipeline server button]
@@ -23,11 +24,14 @@ image::projects/ds-project-create-pipeline-server-form.png[Selecting the Pipelin
 
 . Click *Configure*.
 
-. Wait until the spinner disappears and *No pipelines* is displayed.
+. Wait until the spinner disappears and *No pipelines yet* is displayed.
+
+IMPORTANT: You need to **wait** until that screen is ready. If it's still spinning, wait for it to complete. If you continue and create your workbench **before** the pipeline server is ready, your workbench will not be able to submit pipelines to it.
 
 == Verification
 
-Check the *Pipelines* page. Pipelines are enabled when the *Pipeline server actions* option appears and the *Create pipeline server* button no longer appears.
+Check the *Pipelines* page. +
+Pipelines are enabled when the *Pipeline server actions* option appears and the *Create pipeline server* button no longer appears.
 
 [.bordershadow]
 image::projects/ds-project-create-pipeline-server-complete.png[Create pipeline server complete]
