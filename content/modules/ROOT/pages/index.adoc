@@ -7,19 +7,21 @@ include::_attributes.adoc[]
 
 Welcome!
 
-In this {deliverable}, you'll start with the basics of {productname-short}, and end with some of the newest and most advanced features.
+In this {deliverable}, you will start with the basics of {productname-short}, and end with some of the newest and most advanced features.
 
-If you've never used {productname-short}, don't worry.  We'll start with a straightforward fraud detection model built with Tensorflow to learn the basics.  Then we'll progress to some new features of {productname-short} that allow it to be a great platform for generative AI and large language models.  This will include distributed training and LLM model serving with CaiKit.
+If you've never used {productname-short}, don't worry.  We will start with a straightforward fraud detection model built with Tensorflow to learn the basics.  Then we will progress to some new features of {productname-short} that allow it to be a great platform for generative AI and large language models (LLMs).  This will include distributed training and LLM model serving.
 
-You'll use an example fraud detection model to complete the following tasks:
+You will use an example fraud detection model to complete the following tasks:
 
 * Explore a fraud detection model by using Jupyter Notebooks.
 * Deploy the model by using {productname-short} single model serving.
 * Refine and train the model by using automated pipelines.
 
-Using an LLM Google's https://huggingface.co/google/flan-t5-small[flan-t5-small]  We'll complete the following tasks:
+Using an LLM (Google's https://huggingface.co/google/flan-t5-small[flan-t5-small,window=_blank]), we will complete the following tasks:
+
+// TODO does this still hold true? still using Caikit?
 
 * Wrap the LLM using Caikit for easy serving
 * Serve the model using Caikit
 
-If you're ready, xref:setup:navigating-to-the-dashboard.adoc[start the {deliverable}!]
+// If you're ready, xref:setup:navigating-to-the-dashboard.adoc[start the {deliverable}!]

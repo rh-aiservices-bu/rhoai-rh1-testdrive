@@ -4,15 +4,22 @@ include::_attributes.adoc[]
 
 Now that you've deployed the model, you can test its API endpoints.
 
-=== Procedure
+== Procedure
 
-. In the Data Science dashboard, navigate to the project details page and scroll down to the *Models and model servers* section.
+. In the Data Science dashboard
+. Navigate to the project details page
+. Scroll down to the *Models and model servers* section.
 
 . Take note of the model's *Inference endpoint*.  You need this information when you test the model API.
 
 +
+[.bordershadow]
 image::ds-project-model-list-endpoint.png[Model URL]
 
-. Return to the Jupyter environment and try out your new endpoint. You'll try REST API calls in `3_rest_requests.ipynb`
-
+. Return to the Jupyter environment
+. Open the file called  `2_grpc_request.ipynb`
++
+[.bordershadow]
 image::wb-notebook-requests.png[Request Notebooks]
++
+. Read the code and follow the instructions.

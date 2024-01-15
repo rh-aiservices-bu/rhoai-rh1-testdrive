@@ -1,17 +1,14 @@
-= Fraud Detection Workshop with {productname-long}
+= Thanks
 include::_attributes.adoc[]
-:!sectids:
+// :!sectids:
 
-[.text-center.strong]
-== Conclusion
+// [.text-center.strong]
+// == Conclusion
 
-Congratulations!
+Congratulations! This concludes our {lab_name}!
 
 In this {deliverable}, you learned how to incorporate data science and artificial intelligence (AI) and machine learning (ML) into an OpenShift development workflow.
 
-You used an example fraud detection model and completed the following tasks:
+You have now seen examples of both Predictive and Generative AI.
 
-* Explored a pre-trained fraud detection model by using Jupyter Notebooks.
-* Deployed the model by using {productname-short} model serving.
-* Integrated the model into a real-time fraud detection application.
-* Refined and trained the model by using automated pipelines.
+Thanks for your participation in this test drive!

@@ -4,12 +4,14 @@ include::_attributes.adoc[]
 
 Now that the model is accessible in storage, you can use deploy it as an API.
 
-=== Procedure
+== Procedure
 
-. In the {productname-short} dashboard, navigate to *Models and model servers*.
+. In the {productname-short} dashboard
+. Navigate to *Models and model servers*.
 
 . Click *Deploy model*.
 +
+[.bordershadow]
 image::ds-project-deploy-model.png[Deploy Model]
 
 +
@@ -20,16 +22,21 @@ image::ds-project-deploy-model.png[Deploy Model]
 .. Select the *Model framework*, `pytorch`.
 .. Set the *Model server replicas* to `1`.
 .. Select the *Model Server size*, `Lab Custom Small`.
-.. Select the *Accelerator*, `None`.
+// .. Select the *Accelerator*, `None`.
 .. Select the *Existing data connection*: `My Storage`
 .. Enter the path to your uploaded model: `models/flan-t5-small`
 
 +
+[.bordershadow]
 image::deploy-model-form.png[Deploy model form, 600]
 
 . Click *Deploy*.
 
-. Wait for the model to deploy and for the *Status* to show a green checkmark.  This will probably take two or three minutes.
+. Wait for the model to deploy and for the *Status* to show a green checkmark.
+. This will probably take two or three minutes.
 +
+[.bordershadow]
 image::ds-project-model-list-status.png[Model status]
+
+At this point, the model should be served, and we now just need to confirm it responds to queries.
 

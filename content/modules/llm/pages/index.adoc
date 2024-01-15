@@ -4,17 +4,25 @@ include::_attributes.adoc[]
 
 == Introduction
 
-Now that you've learned the basics of {productname-long} using a Predictive AI model, it's time to explore Generative AI. Generative AI is a subset of artificial intelligence that uses machine learning to generate new data. It's used in a variety of applications, including image generation, text generation, and music generation.
+Now that you've learned the basics of {productname-long} using a **Predictive** AI model, it's time to explore **Generative** AI. +
+Generative AI is a subset of artificial intelligence that creates models that generate new data. +
+It's used in a variety of applications, including image generation, text generation, and music generation. If you've used ChatGPT or StableDiffusion, you've used Generative AI.
 
-In this {deliverable}, we'll explore using a large language model (LLM) downloaded from Huggingface.  We'll be using This is a small LLM we can use with minimal resources.
+In this {deliverable}, we will explore using a large language model (LLM) downloaded from Huggingface.  We will be using a small LLM we can use with minimal resources. In fact, calling a "Small LLM" is a bit misleading, but "SLM" is not a thing, so...🤷
 
-We'll apply a similar workflow from Predictive AI models to complete the following tasks:
+In Generative AI, the early parts of the workflow are very different, compared to Predictive AI:
 
+* In predictive AI, you typically use historical data to train a new model from scratch.
+* In generative AI, the models have been trained for us already, and so we merely download them from a site like HuggingFace and then deploy them in our Model Serving UI.
+
+So at a high level, we will:
+
+//TODO: really?
 * Convert a model from Huggingface to a format that Caikit serving can use.
 * Deploy the model by using single-model serving with the Caikit runtime
 * Test the model API
 
 == About LLMs
 
-Today, we'll be using Google's https://huggingface.co/google/flan-t5-small[flan-t5-small] because of compatibility, small size, and small requirements (no gpu).  It is not a good model, but the process is the same for any of the compatible models.
+Today, we will be using Google's https://huggingface.co/google/flan-t5-small[flan-t5-small,window=_blank] because of compatibility, small size, and small requirements (no gpu).  It is not a good model, but the process is the same for any of the compatible models.
 
