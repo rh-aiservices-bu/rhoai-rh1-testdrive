@@ -1,0 +1,14 @@
+= Thanks
+include::_attributes.adoc[]
+// :!sectids:
+
+// [.text-center.strong]
+// == Conclusion
+
+Congratulations! This concludes our {lab_name}!
+
+In this {deliverable}, you learned how to incorporate data science and artificial intelligence (AI) and machine learning (ML) into an OpenShift development workflow.
+
+You have now seen examples of both Predictive and Generative AI.
+
+Thanks for your participation in this test drive!

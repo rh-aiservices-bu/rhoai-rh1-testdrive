@@ -4,7 +4,7 @@ include::_attributes.adoc[]
 
 First we need to download the Google Flan model from Huggingface and then store it in our S3 bucket for the model server to access.
 
-We will use a workbench and the data connection that you created in the xref:setup:running-a-script-to-install-storage.adoc[Storage Data Connections] section..
+We will use a workbench and the data connection that you created in the xref:setup:running-a-script-to-install-storage.adoc[Storage Data Connections,window=_blank] section..
 
 == Prerequisites
 
@@ -25,11 +25,13 @@ First, let's navigate to the relevant notebooks.
 
 . Navigate to `test-drive/llm`
 
-.. Click the `test-drive` breadcrumb
+// .. Click the `test-drive` breadcrumb
 
-.. Double-click `llm`
+// .. Double-click `llm`
 
-In your notebook environment, open the file `1_download_save.ipynb`, and follow the instructions directly in the notebook. The instructions will guide you through the process of converting a model from Huggingface to a format for serving.
+. In your notebook environment, open the file `1_download_save.ipynb`
+. Follow the instructions directly in the notebook.
+. The instructions will guide you through the process of downloading the model from Huggingface and then uploading it to your `models` bucket.
 
 [.bordershadow]
 image::wb-notebook-download-save.png[Jupyter Notebook 1]
