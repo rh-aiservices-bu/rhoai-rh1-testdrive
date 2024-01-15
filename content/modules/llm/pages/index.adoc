@@ -17,9 +17,8 @@ In Generative AI, the early parts of the workflow are very different, compared t
 
 So at a high level, we will:
 
-//TODO: really?
-* Convert a model from Huggingface to a format that Caikit serving can use.
-* Deploy the model by using single-model serving with the Caikit runtime
+* Download a model from Huggingface
+* Deploy the model by using single-model serving with a serving runtime
 * Test the model API
 
 == About LLMs
