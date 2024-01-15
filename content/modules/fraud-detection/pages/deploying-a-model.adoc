@@ -4,14 +4,20 @@ include::_attributes.adoc[]
 
 Now that the model is accessible in storage and saved in the portable ONNX format, you can use an {productname-short} model server to deploy it as an API.
 
-{productname-short} multi-model servers can host several models at once. You create a new model server and deploy your model to it.
+{productname-short} now has two options for model serving:
 
-=== Procedure
+* multi-model serving-platform
+* single-model serving-platform
 
-. In the {productname-short} dashboard, navigate to *Models and model servers*.
+Review the descriptions available in the interface.
 
+== Procedure
+
+. In the {productname-short} dashboard
+. Navigate to *Models and model servers*.
 . Under *Single model serving platform*, click *Deploy model*.
 +
+[.bordershadow]
 image::model-serving/ds-project-model-list-add.png[Add Server]
 
 +
@@ -22,18 +28,19 @@ image::model-serving/ds-project-model-list-add.png[Add Server]
 .. Select the *Model framework*, `onnx - 1`.
 .. Set the *Model server replicas* to `1`.
 .. Select the *Model Server size*, `Lab Custom Small`.
-.. Select the *Accelerator*, `None`.
+// .. Select the *Accelerator*, `None`.
 .. Select the *Existing data connection*: `My Storage`
-.. Enter the path to your uploaded model: `models/fraud`.  
-
-
-NOTE: The path does not include `1/model.onnx`.  The OpenVINO model server expects the format to include the integer version as part of the subpath.
-
-
+.. Enter the path to your uploaded model: `models/fraud`.
++
+[.bordershadow]
 image::model-serving/deploy-model-form.png[Deploy model form, 600]
-
++
+NOTE: The path does not include `1/model.onnx`.  The OpenVINO model server expects the format to include the integer version as part of the subpath.
++
 . Click *Deploy*.
-
 . Wait for the model to deploy and for the *Status* to show a green checkmark.
 +
+[.bordershadow]
 image::model-serving/ds-project-model-list-status.png[Model status]
++
+. This might take a little while if the cluster is particularly busy, but should be less than 2 minutes.
