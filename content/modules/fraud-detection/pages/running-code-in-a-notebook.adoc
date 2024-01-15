@@ -65,4 +65,4 @@ You can use different kernels, with different languages or versions, to run in y
 
 .Additonal resource
 
-* If you want to learn more about notebooks, go to https://jupyter.org/[the Jupyter site].
+* If you want to learn more about notebooks, go to https://jupyter.org/[the Jupyter site,window=_blank].
