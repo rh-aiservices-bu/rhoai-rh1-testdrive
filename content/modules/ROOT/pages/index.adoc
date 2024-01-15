@@ -19,9 +19,8 @@ You will use an example fraud detection model to complete the following tasks:
 
 Using an LLM (Google's https://huggingface.co/google/flan-t5-small[flan-t5-small,window=_blank]), we will complete the following tasks:
 
-// TODO does this still hold true? still using Caikit?
-
-* Wrap the LLM using Caikit for easy serving
-* Serve the model using Caikit
+* Download the model from HuggingFace
+* Upload it into our Object Storage
+* Serve it with RHOAI's Single Model serving
 
 // If you're ready, xref:setup:navigating-to-the-dashboard.adoc[start the {deliverable}!]
