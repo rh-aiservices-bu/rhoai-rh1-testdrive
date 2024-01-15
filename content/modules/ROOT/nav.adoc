@@ -33,5 +33,5 @@
 ** xref:llm:testing-the-model-api.adoc[4.3 Using the API]
 // *** xref:llm:[5. Connecting a UI]
 
-* xref:llm:conclusion.adoc[5. Wrap up]
+* xref:conclusion.adoc[5. Wrap up]
 
