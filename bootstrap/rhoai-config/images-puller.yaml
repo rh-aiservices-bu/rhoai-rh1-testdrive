@@ -57,7 +57,7 @@ spec:
             cpu: 10m
             memory: 10Mi
       - name: kserve-tgis
-        image: quay.io/opendatahub/text-generation-inference:stable
+        image: quay.io/opendatahub/text-generation-inference@sha256:efcc60c671a5da62c0251bc543f6de73f6578aac40a9a745eae3f60b0208f9e9
         command: ["tail"]
         args: ["-f", "/dev/null"]
         resources:
