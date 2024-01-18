@@ -12,3 +12,7 @@ In this {deliverable}, you learned how to incorporate data science and artificia
 You have now seen examples of both Predictive and Generative AI.
 
 Thanks for your participation in this test drive!
+
+Now that you've tried out some of these new features, we'd love to hear your feedback. Please take a few minutes to fill out our https://docs.google.com/forms/d/e/1FAIpQLSeQPcRsVHxWhS0nzUxEXd8glckpYXaZ0AEzO6AJ0AtjUbkITg/viewform?usp=sf_link[survey,window=_blank]
+
+image::RH1 QR Code.png[QR Code, 300]

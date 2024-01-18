@@ -7,7 +7,7 @@ include::_attributes.adoc[]
 
 Welcome!
 
-In this {deliverable}, you will start with the basics of {productname-short}, and end with some of the newest and most advanced features.
+In this {deliverable}, you will start with the basics of {productname-short}, and end with some of the newest features.
 
 If you've never used {productname-short}, don't worry.  We will start with a straightforward fraud detection model built with Tensorflow to learn the basics.  Then we will progress to some new features of {productname-short} that allow it to be a great platform for generative AI and large language models (LLMs).  This will include distributed training and LLM model serving.
 
@@ -22,5 +22,3 @@ Using an LLM (Google's https://huggingface.co/google/flan-t5-small[flan-t5-small
 * Download the model from HuggingFace
 * Upload it into our Object Storage
 * Serve it with RHOAI's Single Model serving
-
-// If you're ready, xref:setup:navigating-to-the-dashboard.adoc[start the {deliverable}!]
