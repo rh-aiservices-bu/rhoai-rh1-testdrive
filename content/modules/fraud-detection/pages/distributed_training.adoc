@@ -17,19 +17,19 @@ Make sure you are in the right project (your username) and then press `Create Pe
 [.console-input]
 [source, text]
 [subs=attributes+]
-ocs-external-storagecluster-ceph-rbd
+managed-nfs-storage
 ** PersistentVolumeClaim name:
 [.lines_space]
 [.console-input]
 [source, text]
 [subs=attributes+]
-my-results
+ray-results
 ** Access mode:
 [.lines_space]
 [.console-input]
 [source, text]
 [subs=attributes+]
-Single user (RWO)
+Shared access (RWX)
 ** Size:
 [.lines_space]
 [.console-input]
