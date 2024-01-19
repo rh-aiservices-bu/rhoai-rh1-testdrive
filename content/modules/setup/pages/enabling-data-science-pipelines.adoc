@@ -34,4 +34,9 @@ Check the *Pipelines* page. +
 Pipelines are enabled when the *Pipeline server actions* option appears and the *Create pipeline server* button no longer appears.
 
 [.bordershadow]
-image::projects/ds-project-create-pipeline-server-complete.png[Create pipeline server complete]
+image::projects/ds-project-create-pipeline-server-complete.png[Create pipeline server complete, 600]
+
+NOTE: If you have waited more than 5 minutes and the *Pipeline server actions* option does not appear, you can try to delete the pipeline server and create it again.
+
+[.bordershadow]
+image::projects/ds-project-delete-pipeline-server.png[Delete pipeline server, 600]
