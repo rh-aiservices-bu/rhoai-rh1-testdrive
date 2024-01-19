@@ -21,4 +21,4 @@ Using an LLM (Google's https://huggingface.co/google/flan-t5-small[flan-t5-small
 
 * Download the model from HuggingFace
 * Upload it into our Object Storage
-* Serve it with RHOAI's Single Model serving
+* Serve it with {productname-short}'s Single Model serving

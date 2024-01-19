@@ -1,5 +1,16 @@
 # Red Hat OpenShift AI Test Drive
 
+## Introduction
+
+This repository contains the code, instructions, resources and materials associated with the Lab called Streamlining insurance claims with OpenShift AI.
+
+To consult the static version of the instructions, please use [this URL](https://rh-aiservices-bu.github.io/rhoai-rh1-testdrive/)
+
+If you want to participate in the creation and update of this content, please consult the sections below.
+
+<details>
+  <summary>Display Development-centric information</summary>
+
 ## General Development Information
 
 ### Working with this repo
@@ -13,7 +24,9 @@
 - If your development relates to an Issue or a Feature Request, add its reference in the branch name.
 - Try to stash your changes before submitting a PR.
 
-## Instructions Development
+## How to update the **Instructions**
+
+Useful link: [https://redhat-scholars.github.io/build-course/rhs-build-course/develop.html](https://redhat-scholars.github.io/build-course/rhs-build-course/develop.html)
 
 ### Requirements
 
@@ -21,15 +34,15 @@
 
 ### Development
 
-- Add/Modify/Delete content in [instructions/content/modules/ROOT](instructions/content/modules/ROOT).
+- Add/Modify/Delete content in [content/modules/ROOT](content/modules/ROOT).
 - Navigation is handled in `nav.adoc`.
 - Content pages are in the `pages` folder.
-- To build the site, from the root of the repo, run `./instructions/utilities/lab-build`.
-- To serve the site for previewing, from the root of the repo, run `instructions/utilities/lab-serve`.
+- To build the site, from the root of the repo, run `./content/utilities/lab-build`.
+- To serve the site for previewing, from the root of the repo, run `./content/utilities/lab-serve`.
 - The site will be visible at [http://localhost:8443/](http://localhost:8443/)
-- When finished, you can stop serving the site by running from the root of the repo `instructions/utilities/lab-stop`.
+- When finished, you can stop serving the site by running from the root of the repo `./content/utilities/lab-stop`.
 
-## Application Development
+## How to update the **Application**
 
 ### Requirements
 
@@ -45,9 +58,7 @@ If you want to install packages manually:
 
 - In the `frontend` folder, install the node modules with `npm install`.
 - In the `backend` folder, create a venv and install packages with the provided Pipfile/Pipfile.lock files.
-- In the `backend` folder, create the file `.env` base on the example `.env.example` an488962
-- ccccccevjcnkhultbvdgrjghjcvgluedrvinjdjfbjch
-- d enter the configuration for the Inference server.
+- In the `backend` folder, create the file `.env` base on the example `.env.example` and enter the configuration for the Inference server.
 
 ### Development
 
@@ -55,3 +66,57 @@ From the main folder, launch `npm run dev`. This will launch both backend and fr
 
 - Frontend is accessible at `http://localhost:9000`
 - Backend is accessible at `http://localhost:5000`, with Swagger API doc at `http://localhost:5000/docs`
+
+```bash
+#!/bin/bash
+
+# Script to restart all showroom pods - You must be logged in as a cluster admin to run this script
+
+# Get all namespaces
+namespaces=$(oc get namespaces -o jsonpath='{.items[*].metadata.name}' \
+    | tr ' ' '\n' \
+    | grep '^showroom')
+
+# Stop all the pods
+for namespace in $namespaces; do
+    # Check if the deployment "showroom" exists in the namespace
+    if oc -n $namespace get deployment showroom &> /dev/null; then
+        # If it exists, restart the rollout
+        # oc -n $namespace rollout restart deployment/showroom
+        oc -n $namespace scale deploy showroom --replicas=0
+    fi
+done
+
+
+# wait for them all to fully stop
+# start all the pods
+for namespace in $namespaces; do
+    # Check if the deployment "showroom" exists in the namespace
+    if oc -n $namespace get deployment showroom &> /dev/null; then
+        # If it exists, restart the rollout
+        # oc -n $namespace rollout restart deployment/showroom
+        oc -n $namespace scale deploy showroom --replicas=1
+    fi
+done
+
+
+```
+
+## How to graduate code from dev to main
+
+- From `dev`, create a new branch, like `feature/prepare-for-main-merge`.
+- Modify the following files to make their relevant content point to `main`:
+  - `bootstrap/applicationset/applicationset-bootstrap.yaml`
+  - `content/antora.yml`
+  - `content/modules/ROOT/pages/05-03-web-app-deploy-application.adoc`
+- Make a pull request from this branch to `main`, review and merge
+
+</details>
+
+<details>
+  <summary>Links for RH1 event environment assignment</summary>
+
+- URL for all labs: [https://one.demo.redhat.com/](https://one.demo.redhat.com/)
+- Search for `insurance`
+
+</details>
