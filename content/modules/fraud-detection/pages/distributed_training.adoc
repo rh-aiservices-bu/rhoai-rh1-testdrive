@@ -1,0 +1,43 @@
+= Distributed training
+
+Let's look at how we can train the model distributed. +
+To do this, we can use Codeflare and Ray to create a Raycluster where we train over multiple pods at the same time. +
+
+== Procedure
+
+First, we need to set up a PVC that can hold some information/logs about the training run. The actual trained model will be stored in the S3 storage though.
+
+Go to the OpenShift Console, then Storage, and finally PersistentVolumeClaims.
+
+Make sure you are in the right project (your username) and then press `Create PersistantVolumeClaim`.
+
+* Use these settings:
+** StorageClass:
+[.lines_space]
+[.console-input]
+[source, text]
+[subs=attributes+]
+ocs-external-storagecluster-ceph-rbd
+** PersistentVolumeClaim name:
+[.lines_space]
+[.console-input]
+[source, text]
+[subs=attributes+]
+my-results
+** Access mode:
+[.lines_space]
+[.console-input]
+[source, text]
+[subs=attributes+]
+Single user (RWO)
+** Size:
+[.lines_space]
+[.console-input]
+[source, text]
+[subs=attributes+]
+1 GiB
+
+Press `Create`.
+
+Now we can back into our workbench and open `6_train_distributed.ipynb`. +
+Run through all the cells and read the describtions, and by the end you will have trained a model distributed and pushed it up to S3.
