@@ -63,6 +63,6 @@ image::workbenches/new_notebook.png[alt text]
 
 You can use different kernels, with different languages or versions, to run in your notebook.
 
-.Additonal resource
+.Additional resource
 
 * If you want to learn more about notebooks, go to https://jupyter.org/[the Jupyter site,window=_blank].

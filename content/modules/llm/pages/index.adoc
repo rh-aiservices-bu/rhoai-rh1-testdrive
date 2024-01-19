@@ -23,5 +23,5 @@ So at a high level, we will:
 
 == About LLMs
 
-Today, we will be using Google's https://huggingface.co/google/flan-t5-small[flan-t5-small,window=_blank] because of compatibility, small size, and small requirements (no gpu).  It is not a good model, but the process is the same for any of the compatible models.
+Today, we will be using Google's https://huggingface.co/google/flan-t5-small[flan-t5-small,window=_blank] because of compatibility, small size, and small requirements (no GPU).  It is not a good model, but the process is the same for any of the compatible models.
 
