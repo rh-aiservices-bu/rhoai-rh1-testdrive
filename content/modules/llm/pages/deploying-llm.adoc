@@ -7,7 +7,7 @@ Now that the model is accessible in storage, you can use deploy it as an API.
 == Procedure
 
 . In the {productname-short} dashboard
-. Navigate to *Models and model servers*.
+. Inside your previously created data science project, navigate to *Models and model servers*.
 
 . Click *Deploy model*.
 +
